@@ -3,7 +3,6 @@ import torch.nn as nn
 from long_seq import process_long_input
 from losses import ATLoss
 from torch.nn.utils.rnn import pad_sequence
-from MRGARN import DynaRelGAT, MRGARN
 from utils import EmbedLayer
 from residual import BiLstm_reason
 import numpy as np
